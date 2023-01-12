@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>pattern</title>
+        <style media="screen">
+            body {
+                margin: 0;
+                background-color: black;
+            }
+
+            div {
+                display: flex;
+                height: 100vh;
+                width: 100%;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            img {
+                max-width: 100%;
+                margin: 0 auto;
+                max-height: 100vh;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="">
+            <img src="images/pattern (1).png" alt="">
+        </div>
+    </body>
+
+    <script type="text/javascript">
+        const img_container = document.querySelector("div");
+        const image = document.querySelector("img");
+        let current_image_counter = 1;
+        img_container.addEventListener('click',  (event) => {
+            current_image_counter++;
+            if (current_image_counter > 108) current_image_counter = 1;
+            const image_name = "images/pattern (" + current_image_counter + ").png";
+            image.setAttribute("src", image_name);
+
+        });
+    </script>
+</html>
