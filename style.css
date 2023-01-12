@@ -1,0 +1,446 @@
+
+
+/* x="0px" y="0px"  width="32px" */
+.controls-svg {
+    width: 32px;
+
+}
+
+/* work-sans-100 - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-200 - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-300 - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-regular - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-500 - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-600 - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-700 - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-800 - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-900 - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-100italic - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 100;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-100italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-100italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-200italic - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 200;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-200italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-200italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-300italic - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 300;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-italic - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-500italic - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 500;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-600italic - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-700italic - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-800italic - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 800;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-800italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-800italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* work-sans-900italic - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 900;
+    src: local(''),
+    url('fonts/work-sans-v18-latin-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/work-sans-v18-latin-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+    background-color: #222121;
+    color: white;
+    margin: 0;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.hidden {
+    display: none;
+}
+
+.menu-container {
+    position: fixed;
+    top: 11px;
+    right: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button[name^="grid"] svg path {
+    fill: white;
+}
+
+button[name^="grid"]:hover {
+    opacity: 1;
+}
+
+button[name^="grid"] {
+    opacity: 0.6;
+    cursor: pointer;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000042;
+    /* z-index: 0; */
+}
+
+.sketch-container {
+    height: calc(100vh - 4px);
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.name-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+button[name^="arrow"]:hover {
+    background-color: #ffffff17;
+    cursor: pointer;
+}
+
+button[name^="arrow"] {
+    border-radius: 50%;
+    padding: 3px 6px 6px 6px;
+    font-size: 32px;
+}
+
+.expanded-menu {
+    position: fixed;
+    display: none;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    height: 100vh;
+    width: 100%;
+    background-color: #261d22;
+    padding: 0 60px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.expanded-menu.visible {
+    display: grid;
+}
+
+.box {
+    color: #ecfb00;
+}
+
+.box:not(.overflowing) {
+    padding: 60px 0;
+}
+
+.box.overflowing {
+    overflow: auto;
+    height: calc(100vh - 80px);
+    box-sizing: border-box;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.close-button-container {
+    position: fixed;
+    top: 11px;
+    right: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button[name^="close"]:hover {
+    opacity: 1;
+}
+
+button[name^="close"] {
+    /* opacity: 0.8;  /*  maybe opacity */
+    cursor: pointer;
+    font-size: x-large;
+    color: #ecfb00;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+
+.gallery-item {
+    height: 200px;
+    text-align: center;
+}
+
+.gallery-item a {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    background: black;
+    overflow: hidden;
+    transition: transform 250ms ease-in-out;
+    cursor: pointer;
+    box-shadow: 4px 6px 5px 0px #00000054;
+}
+
+.gallery-item.active {
+    position: relative;
+}
+
+.gallery-item a:hover {
+    transform: scale(1.12);
+}
+
+.gallery-item.active:has(a:hover)::after {
+    transform: scale(1.12);
+}
+
+.gallery-item.active::after {
+    content: "";
+    background: linear-gradient(to right, #ecfb00 2px, transparent 2px) 0 0, linear-gradient(to bottom, #ecfb00 2px, transparent 2px) 0 0, linear-gradient(to left, #ecfb00 2px, transparent 2px) 100% 0, linear-gradient(to bottom, #ecfb00 2px, transparent 2px) 100% 0, linear-gradient(to left, #ecfb00 2px, transparent 2px) 100% 100%, linear-gradient(to top, #ecfb00 2px, transparent 2px) 100% 100%, linear-gradient(to right, #ecfb00 2px, transparent 2px) 0 100%, linear-gradient(to top, #ecfb00 2px, transparent 2px) 0 100%;
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    width: 410px;
+    height: 210px;
+    position: absolute;
+    left: calc((100% - 410px) / 2);
+    top: -5px;
+    pointer-events: none;
+    transition: transform 250ms ease-in-out;
+}
+
+.gallery-item img {
+    height: 200px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.controls-button-container {
+    position: fixed;
+    left: 10px;
+    bottom: 13px;
+}
+
+button[name^="controls"] svg path {
+    fill: white;
+}
+
+.controls-container {
+    background-color: #00000042;
+    display: none;
+    position: fixed;
+    left: 8px;
+    bottom: 69px;
+}
+
+.controls-button-container:hover + .controls-container {
+    display: block;
+}
+
+.controls-container p {
+    margin: 6px 0;
+    font-weight: 300;
+}
+
+.simplebar-scrollbar::before {
+    background-color: #ecfb00;
+    border-radius: 0;
+}
+
+.simplebar-scrollbar.simplebar-visible:before {
+    opacity: 1;
+}
+
+@media screen and (max-width: 420px) {
+    .name-container {
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .expanded-menu {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .expanded-menu .box:nth-child(2) {
+        order: 2;
+        padding: 0;
+        text-align: center;
+    }
+
+    .box.overflowing {
+        overflow: auto;
+        height: auto;
+        box-sizing: border-box;
+        margin-top: 35px;
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 1690px) {
+    .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1180px) {
+    .gallery-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+
+}
